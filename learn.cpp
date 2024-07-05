@@ -68,7 +68,7 @@ int main() {
 
 //------------------------------------------Moving to newline----------------------------------------------
 
-#include <iostream>
+/* #include <iostream>
 using namespace std;
 
 int main() {
@@ -77,7 +77,7 @@ int main() {
 	cout << "Hello" << "\n";   // 3 - purple color
 	cout << "World";           // 4 - purple color
 	return 0;
-}
+} */
 
 // Output
 
@@ -86,3 +86,28 @@ int main() {
 // Hello World
 // Hello
 // World
+
+//================================================================================================================================================
+
+//--------------------------------------Manipulator------------------------------------
+
+// In here I'm gonna use 'endl' manipulator. Let's see how it works.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout << "Hello" << endl;		// 1 - color blue
+	cout << "Hello World" << endl;	// 2 - color orange
+	cout << "Hello";				// 3 - color purple
+	cout << "World";				// 4 - color purple
+	return 0;
+}
+
+// Output
+
+// Hello
+// Hello World
+// HelloWorld
+
+// So basically what 'endl' do is, it is ending the line after the content has been printed out. So the next content always begin with new line.
