@@ -43,13 +43,13 @@ int main() {
 
 // intstance - 02
 
-#include <iostream>
+/*#include <iostream>
 //using namespace std;  // commented out this line
 
 int main() {
 	std :: cout << "Hello";
 	return 0;
-}
+}*/
 
 // This code executes perfectly. Prints "Hello" on the console.
 // Without using 'using namespace std;' through that method I can use the standard library.
@@ -64,3 +64,25 @@ int main() {
 //When executing instance 2, it loads/brings only specific component/name what we are asking, in this case it is cout.
 //More convenience when working on a large project to avoid conflicts.
 
+//================================================================================================================================================
+
+//------------------------------------------Moving to newline----------------------------------------------
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout << "Hello\nWorld\n";  // 1 - blue color
+	cout << "Hello World\n";   // 2 - orange color
+	cout << "Hello" << "\n";   // 3 - purple color
+	cout << "World";           // 4 - purple color
+	return 0;
+}
+
+// Output
+
+// Hello 
+// World
+// Hello World
+// Hello
+// World
