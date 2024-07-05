@@ -93,7 +93,7 @@ int main() {
 
 // In here I'm gonna use 'endl' manipulator. Let's see how it works.
 
-#include <iostream>
+/* #include <iostream>
 using namespace std;
 
 int main() {
@@ -102,7 +102,7 @@ int main() {
 	cout << "Hello";				// 3 - color purple
 	cout << "World";				// 4 - color purple
 	return 0;
-}
+} */
 
 // Output
 
@@ -111,3 +111,20 @@ int main() {
 // HelloWorld
 
 // So basically what 'endl' do is, it is ending the line after the content has been printed out. So the next content always begin with new line.
+
+//================================================================================================================================================
+
+//---------------------------------------C++ variables------------------------------------------
+
+// There are different types of variables of different data types.
+
+// 1. int - store integers without decimals
+//				ex:- int x = 12;
+// 2. double - stores floating point numbers with decimals
+//				ex:- double y = 12.12;
+// 3. char - stores single character
+//				ex:- char z = 'a';
+// 4. string - stores a text
+//				ex:- string k = "Hello"; , string l = "1234";
+// 5. bool - boolean ( stores true or false )
+//				ex:- bool m = true; , bool n = false;
