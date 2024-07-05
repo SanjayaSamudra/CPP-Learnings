@@ -1,16 +1,19 @@
-#include <iostream>
+// intstance - 01
+
+/*#include <iostream>
 using namespace std;
 
 int main() {
 	cout << "Hello World";
 	return 0;
-}
+}*/
 
 // Important facts regarding this simple code
 
 // 1. #include <iostream> 
 //			Refers to as Header file. 
 //			This code gives the user to use input, output operations to carry out.
+// 			Header consider as a not statement, so no semicolon(;) at the end.
 
 // 2. using namespace std;
 //			Use names for objects & variables from the standard library.
@@ -34,6 +37,30 @@ int main() {
 //			This confirms that main function executed successfully.
 //			Though above line is a statement, we have to end that line with semicolon(;).
 
+//===============================================================================================================================================
 
+//---------------------------------------------namespace omitting-----------------------------------------------------
 
+// intstance - 02
+
+#include <iostream>
+//using namespace std;  // commented out this line
+
+int main() {
+	std :: cout << "Hello";
+	return 0;
+}
+
+// This code executes perfectly. Prints "Hello" on the console.
+// Without using 'using namespace std;' through that method I can use the standard library.
+
+//================================================================================================================================================
+
+//---------------------------------Difference of executing above two instances ( 1 & 2 )--------------------------------
+
+//When executing instance 1, it loads all the components in the 'std' namespace into our file.
+//Seams to be convenience in a way but can cause conflicts in larger projects.
+
+//When executing instance 2, it loads/brings only specific component/name what we are asking, in this case it is cout.
+//More convenience when working on a large project to avoid conflicts.
 
