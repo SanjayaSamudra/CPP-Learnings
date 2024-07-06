@@ -114,7 +114,7 @@ int main() {
 
 //================================================================================================================================================
 
-//---------------------------------------C++ variables------------------------------------------
+//-------------------------------C++ variables---------------------------
 
 // There are different types of variables of different data types.
 
@@ -129,7 +129,7 @@ int main() {
 // 5. bool - boolean ( stores true or false )
 //				ex:- bool m = true; , bool n = false;
 
-//-------------------------------------Creating Variables---------------------------------------
+//----------------------------Creating Variables-----------------------
 
 // Syntax used in when declaring a variable.
 //		dataType variableName = value ;
@@ -167,7 +167,7 @@ int main() {
 //		for true values 1 is printed. Not "true", remember it. Same goes for "false" as well.
 //		When printing variables remember not to put double quotes, then it become just a string.
 
-//----------------------------variable initialization------------------------------
+//-------------------------variable initialization------------------------
 
 /* #include <iostream>
 using namespace std;
@@ -207,9 +207,9 @@ int main() {
 	character = 'A';
 } */
 
-//---------------------------------Methods of declaring variables------------------------------------------
+//--------------------------Methods of declaring variables-------------------
 
-#include <iostream>
+/* #include <iostream>
 using namespace std;
 
 int main() {
@@ -221,10 +221,11 @@ int main() {
 	
 	// Method - 2 (comma seperated can be use to declare variables of same dataType)
 	int x  = 5, y = 6, z = 7;
-}
+} */
 
-//-------------------Assigning same value to the multiple variables------------------------------------------
-#include <iostream>
+//-------------Assigning same value to the multiple variables---------------
+
+/* #include <iostream>
 using namespace std;
 
 int main() {
@@ -233,4 +234,29 @@ int main() {
 	int x, y, z;
 	
 	x = y = z = 5; // Means x = 5, y = 5, z = 5.
+} */
+
+//--------------------Changing the value of the varaible---------------------
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	
+	int x = 1, y = 2, z = 3;
+	
+	cout << x << endl;  // prints 1
+	cout << y << endl;	// prints 2
+	cout << z << endl;	// prints 3
+	
+	x = 21; // Assigning 21 to the varaiable x by replacing it's previous value.
+	y = 22;	// Assigning 22 to the varaiable y by replacing it's previous value.
+	z = 23;	// Assigning 23 to the varaiable z by replacing it's previous value.
+	
+	cout << x << endl;	// prints 21
+	cout << y << endl;	// prints 22
+	cout << z << endl;	// prints 23
+	
 }
+
+
