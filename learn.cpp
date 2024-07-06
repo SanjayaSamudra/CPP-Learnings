@@ -169,7 +169,7 @@ int main() {
 
 //----------------------------variable initialization------------------------------
 
-#include <iostream>
+/* #include <iostream>
 using namespace std;
 
 int main() {
@@ -205,5 +205,32 @@ int main() {
 	
 	m = 'a'
 	character = 'A';
+} */
+
+//---------------------------------Methods of declaring variables------------------------------------------
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	
+	// Method - 1
+	int x = 5;
+	int y = 6;
+	int z = 7;
+	
+	// Method - 2 (comma seperated can be use to declare variables of same dataType)
+	int x  = 5, y = 6, z = 7;
 }
 
+//-------------------Assigning same value to the multiple variables------------------------------------------
+#include <iostream>
+using namespace std;
+
+int main() {
+	
+	// Method of initialization same dataType variables.
+	int x, y, z;
+	
+	x = y = z = 5; // Means x = 5, y = 5, z = 5.
+}
