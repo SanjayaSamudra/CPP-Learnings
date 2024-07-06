@@ -136,7 +136,7 @@ int main() {
 
 // Ex:-
 
-#include <iostream>
+/* #include <iostream>
 using namespace std;
 
 int main() {
@@ -159,12 +159,51 @@ int main() {
 	cout << n << endl; // prints a
 	cout << p << endl; // prints A
 	
-} 
+}  */
 
 // Reminder
 //		string values are mention within double quotes(" ").
 //		character (char) values are stored within the single quotes(' ').
 //		for true values 1 is printed. Not "true", remember it. Same goes for "false" as well.
+//		When printing variables remember not to put double quotes, then it become just a string.
 
 //----------------------------variable initialization------------------------------
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	
+	// This is variable initialization
+	int x;
+	int num;
+	
+	double y;
+	double salary;
+	
+	string z;
+	string name;
+	
+	bool k;
+	bool isTrue;
+	
+	char m;
+	char character;
+	
+	// Assigning values to above variables.
+	x = 12;
+	num = 21;
+	
+	y = 12.12;
+	salary = 21.21;
+	
+	z = "Hello";
+	name = "Kamal";
+	
+	k = true;
+	isTrue = false;
+	
+	m = 'a'
+	character = 'A';
+}
 
