@@ -165,3 +165,6 @@ int main() {
 //		string values are mention within double quotes(" ").
 //		character (char) values are stored within the single quotes(' ').
 //		for true values 1 is printed. Not "true", remember it. Same goes for "false" as well.
+
+//----------------------------variable initialization------------------------------
+
