@@ -128,3 +128,40 @@ int main() {
 //				ex:- string k = "Hello"; , string l = "1234";
 // 5. bool - boolean ( stores true or false )
 //				ex:- bool m = true; , bool n = false;
+
+//-------------------------------------Creating Variables---------------------------------------
+
+// Syntax used in when declaring a variable.
+//		dataType variableName = value ;
+
+// Ex:-
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	
+	// Variable initialization with values.
+	int x = 12;
+	double y = 12.12;
+	string z = "Hello";
+	bool k = true;
+	bool m = false;
+	char n = 'a';
+	char p = 'A';
+	
+	// Print out the variables.
+	cout << x << endl; // prints 12
+	cout << y << endl; // prints 12.12
+	cout << z << endl; // prints Hello
+	cout << k << endl; // prints 1
+	cout << m << endl; // prints 0
+	cout << n << endl; // prints a
+	cout << p << endl; // prints A
+	
+} 
+
+// Reminder
+//		string values are mention within double quotes(" ").
+//		character (char) values are stored within the single quotes(' ').
+//		for true values 1 is printed. Not "true", remember it. Same goes for "false" as well.
