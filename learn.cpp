@@ -259,4 +259,21 @@ int main() {
 	
 }
 
+//-------------------------Constant variables--------------------------------
 
+// Here constant means value of that specific variable cannot be change later while we move on. ( like value of "pi", which cannot be change )
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	
+	const double pi = 3.14;	// compiler this refered to as a 'read-only-varaiable'
+	cout << pi << endl;	// prints 3.14
+	
+	//pi = 3.15;	// compiler gives an error mentioning that this is a 'read-only-varaiable'
+	cout << pi << endl; // prints 3.14
+	
+	// In this case you can't complile the file the with this error. Need to remove it or make sure to comment it out.
+	
+}
