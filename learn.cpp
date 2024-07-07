@@ -292,12 +292,25 @@ using namespace std;
 
 int main() {
 	
-	const double pi = 3.14;	// compiler this refered to as a 'read-only-varaiable'
-	cout << pi << endl;	// prints 3.14
+	int x;
+	cin >> x; // Gives you a chance to input a value from keyboard.
 	
-	//pi = 3.15;	// compiler gives an error mentioning that this is a 'read-only-varaiable'
-	cout << pi << endl; // prints 3.14
+	// Instance - 1
+	int num;
+	cout << "Enter a number : " << endl;
+	cin >> x;
 	
-	// In this case you can't complile the file the with this error. Need to remove it or make sure to comment it out.
+	// Instance - 2
+	cout << "Enter a number : ";
+	cin >> x;
 	
 }
+
+// Outputs
+
+// Instance - 1
+// Enter a number :
+// "Key board input" <- we get chance to input value for x after the cout.
+
+// Instance - 2
+// Enter a number : "Key board input" <- Here we get the chance to input the value of x in same line.
