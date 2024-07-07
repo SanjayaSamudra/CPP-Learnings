@@ -14,4 +14,4 @@ Welcome to my C++ Learning Project! This repository contains my journey and lear
 To get started with this project, you can clone the repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/yourusername/cpp-learning-project.git
+git clone https://github.com/SanjayaSamudra/CPP-Learnings.git
