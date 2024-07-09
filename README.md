@@ -8,6 +8,7 @@ Welcome to my C++ Learning Project! This repository contains my journey and lear
 
 - `learn.cpp`: The main C++ file with all my learnings and examples.
 - `README.md`: This file, providing an overview and instructions.
+- `Methods Of Executing C++.pdf`: This pdf provides the step-by-step guide to execute a C++ code.
 
 ## Getting Started
 
