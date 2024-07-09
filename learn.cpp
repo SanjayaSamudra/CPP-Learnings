@@ -240,7 +240,7 @@ int main() {
 
 //--------------------Changing the value of the varaible---------------------
 
-#include <iostream>
+/* #include <iostream>
 using namespace std;
 
 int main() {
@@ -259,13 +259,13 @@ int main() {
 	cout << y << endl;	// prints 22
 	cout << z << endl;	// prints 23
 	
-}
+} */
 
 //-------------------------Constant variables--------------------------------
 
 // Here constant means value of that specific variable cannot be change later while we move on. ( like value of "pi", which cannot be change )
 
-#include <iostream>
+/* #include <iostream>
 using namespace std;
 
 int main() {
@@ -278,11 +278,11 @@ int main() {
 	
 	// In this case you can't complile the file the with this error. Need to remove it or make sure to comment it out.
 	
-}
+} */
 
 //==============================================================================================================================================
 
-//#-------------------------------------------------C++ user input--------------------------------------------------------------#
+//#-----------------------------------------------------C++ user input--------------------------------------------------------------#
 
 // cin - to get user input 
 //	   - reads data from the keyboard
@@ -293,7 +293,7 @@ using namespace std;
 int main() {
 	
 	int x;
-	cin >> x; // Gives you a chance to input a value from keyboard.
+/* 	cin >> x; // Gives you a chance to input a value from keyboard.
 	
 	// Instance - 1
 	int num;
@@ -304,7 +304,7 @@ int main() {
 	cout << "Enter a number : ";
 	cin >> x;
 	
-}
+} */
 
 // Outputs
 
