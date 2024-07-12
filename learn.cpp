@@ -287,7 +287,7 @@ int main() {
 // cin - to get user input 
 //	   - reads data from the keyboard
 
-#include <iostream>
+/* #include <iostream>
 using namespace std;
 
 int main() {
@@ -302,7 +302,7 @@ int main() {
 	
 	// Instance - 2
 	cout << "Enter a number : ";
-	cin >> x;
+	cin >> x;*/
 	
 } */
 
@@ -314,3 +314,17 @@ int main() {
 
 // Instance - 2
 // Enter a number : "Key board input" <- Here we get the chance to input the value of x in same line.
+
+//===================================================================================================
+
+//-------------------------------C++ Functions----------------------------
+
+#include <iostream>
+using namespace std;
+
+int main(){
+	int x = 5;
+	cout << "The size of the integer " << x << " is, " << sizeof(x); // prints -> The size of the integer 5 is, 4
+	return 0;
+}
+// Here size of an integer given with bytes, that means 4 bytes which is 32 bits.( 1 byte = 8 bits ) 
