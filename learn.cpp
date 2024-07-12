@@ -324,7 +324,24 @@ using namespace std;
 
 int main(){
 	int x = 5;
-	cout << "The size of the integer " << x << " is, " << sizeof(x); // prints -> The size of the integer 5 is, 4
-	return 0;
+	cout << "The size of the integer " << x << " is, " << sizeof(x) << endl; // prints -> The size of the integer 5 is, 4
+	
+	double y = 5.75;
+	cout << "The size of double " << y << " is, " << sizeof(y) << endl; 	 // prints -> The size of the double 5.75 is, 8
+	
+	float z = 5.75;
+	cout << "The size of float " << z << " is, " << sizeof(z) << endl; 		 // prints -> The size of the float 5.75 is, 4
 }
-// Here size of an integer given with bytes, that means 4 bytes which is 32 bits.( 1 byte = 8 bits ) 
+// Here, size of an integer given with bytes, that means 4 bytes which is 32 bits.( 1 byte = 8 bits ) 
+// Here, size of a double given with bytes, that means 8 bytes which is 64 bits.( 1 byte = 8 bits ) 
+// Here, size of a float given with bytes, that means 4 bytes which is 32 bits.( 1 byte = 8 bits ) 
+
+
+
+
+
+
+
+
+
+
