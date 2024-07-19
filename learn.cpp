@@ -319,7 +319,9 @@ int main() {
 
 //-------------------------------C++ Functions----------------------------
 
-/* #include <iostream>
+//-------------------C++ sizeof() function-----------------
+
+#include <iostream>
 using namespace std;
 
 int main(){
@@ -331,11 +333,19 @@ int main(){
 	
 	float z = 5.75;
 	cout << "The size of float " << z << " is, " << sizeof(z) << endl; 		 // prints -> The size of the float 5.75 is, 4
-} */
+	
+	string s = "ABC";
+	cout << "The size of string " << s << " is, " << sizeof(s) << endl; 	 // prints -> The size of the string ABC is, 32
+}
 
 // Here, size of an integer given with bytes, that means 4 bytes which is 32 bits.( 1 byte = 8 bits ) 
 // Here, size of a double given with bytes, that means 8 bytes which is 64 bits.( 1 byte = 8 bits ) 
 // Here, size of a float given with bytes, that means 4 bytes which is 32 bits.( 1 byte = 8 bits ) 
+// Here, size of a string given with bytes, that means 4 bytes which is 32 bits.( 1 byte = 8 bits ) 
+
+//--------------------C++ length() function-----------------
+
+
 
 //=========================================================================================================================================
 
@@ -422,7 +432,7 @@ int main(){
 
 //-----------------Logical Operators------------
 
-#include <iostream>
+/* #include <iostream>
 using namespace std;
 
 int main(){
@@ -435,7 +445,7 @@ int main(){
 	cout << "Logical OR operator - " << ((x <= y) || (x >= y)) << endl;		// prints 1
 	cout << "Logical AND operator - " << ((x <= y) && (x >= y)) << endl;	// prints 0
 	
-}
+} */
 
 // what logical ((x <= y) || (x >= y)) this do is, if one of them corrects, program stops checking other conditions after that condition.
 
