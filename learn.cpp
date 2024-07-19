@@ -319,7 +319,7 @@ int main() {
 
 //-------------------------------C++ Functions----------------------------
 
-#include <iostream>
+/* #include <iostream>
 using namespace std;
 
 int main(){
@@ -331,7 +331,8 @@ int main(){
 	
 	float z = 5.75;
 	cout << "The size of float " << z << " is, " << sizeof(z) << endl; 		 // prints -> The size of the float 5.75 is, 4
-}
+} */
+
 // Here, size of an integer given with bytes, that means 4 bytes which is 32 bits.( 1 byte = 8 bits ) 
 // Here, size of a double given with bytes, that means 8 bytes which is 64 bits.( 1 byte = 8 bits ) 
 // Here, size of a float given with bytes, that means 4 bytes which is 32 bits.( 1 byte = 8 bits ) 
@@ -356,6 +357,28 @@ int main(){
 //	%	-> Arithmetic Modulus
 //	++	-> Increment
 //	--	-> Decrement
+
+#include <iostream>
+using namespace std;
+
+int main(){
+	int x = 15;
+	
+	cout << x++ << endl; // prints 15
+	cout << x-- << endl; // prints 16
+	
+	cout << ++x << endl; // prints 16
+	cout << --x << endl; // prints 15
+	return 0;
+}
+
+// Let's walk through each of line one by one.
+//			x++	-> value got incremented but prints old value
+//						Ex:- x = 15, in this case x got incremented but prints 15.
+
+// 			++x -> value got incremented and prints the incremented value at the same time.
+//						Ex:- x = 15, here if we give ++x. Then it will print out 16.
+//							In this case if we print out x again it will give the same result that is 16. Because it already got incremented.
 
 
 
