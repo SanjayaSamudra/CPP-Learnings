@@ -375,10 +375,13 @@ int main(){
 // Let's walk through each of line one by one.
 //			x++	-> value got incremented but prints old value
 //						Ex:- x = 15, in this case x got incremented but prints 15.
+//								But if we again print x it will give 16. 
 
 // 			++x -> value got incremented and prints the incremented value at the same time.
 //						Ex:- x = 15, here if we give ++x. Then it will print out 16.
 //							In this case if we print out x again it will give the same result that is 16. Because it already got incremented.
+
+
 
 
 
