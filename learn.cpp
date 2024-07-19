@@ -336,8 +336,26 @@ int main(){
 // Here, size of a double given with bytes, that means 8 bytes which is 64 bits.( 1 byte = 8 bits ) 
 // Here, size of a float given with bytes, that means 4 bytes which is 32 bits.( 1 byte = 8 bits ) 
 
+//=========================================================================================================================================
 
+//-----------------------------C++ Operators------------------------------
 
+//Types of operators
+//		1. Arithmetic Operators
+//		2. Assignment Operators
+//		3. Comparison Operators
+//		4. Logical Operators
+//		5. Bitwise Operators
+
+//------------Arithmetic Operators----------
+
+//	+	-> Arithmetic Addition
+//	-	-> Arithmetic Subtraction
+//	*	-> Arithmetic Multiplication
+//	/	-> Arithmetic Division
+//	%	-> Arithmetic Modulus
+//	++	-> Increment
+//	--	-> Decrement
 
 
 
