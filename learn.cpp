@@ -405,7 +405,7 @@ int main(){
 
 //----------------Comparison Operators------------
 
-#include <iostream>
+/* #include <iostream>
 using namespace std;
 
 int main(){
@@ -416,12 +416,30 @@ int main(){
 	cout << "Less than or equal operator - " << x <= y << endl;		// prints 1
 	cout << "Grater than or equal operator - " <<  x >= y << endl;	// prints 0
 	
-}
+} */
 
 // Here we refer 0 - false and 1 - true. Because in comparison operators we getting only true or false case only. 
 
+//-----------------Logical Operators------------
 
+#include <iostream>
+using namespace std;
 
+int main(){
+	int x = 15, y = 20;
+	
+	cout << "Logical OR operator - " << ((x <= y) | (x >= y)) << endl;		// prints 1
+	cout << "Logical AND operator - " << ((x <= y) & (x >= y)) << endl;		// prints 0
+	cout << "Logical NOT operator - " << not((x <= y) | (x >= y)) << endl;	// prints 0
+	
+	cout << "Logical OR operator - " << ((x <= y) || (x >= y)) << endl;		// prints 1
+	cout << "Logical AND operator - " << ((x <= y) && (x >= y)) << endl;	// prints 0
+	
+}
 
+// what logical ((x <= y) || (x >= y)) this do is, if one of them corrects, program stops checking other conditions after that condition.
+
+// What logical ((x <= y) && (x >= y)) this do is, if one of them falses, program stops checking other conditions after that condition.
+//		These two methods usefull when working with large conditional statements.
 
 
