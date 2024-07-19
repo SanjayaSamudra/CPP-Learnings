@@ -358,7 +358,7 @@ int main(){
 //	++	-> Increment
 //	--	-> Decrement
 
-#include <iostream>
+/* #include <iostream>
 using namespace std;
 
 int main(){
@@ -370,7 +370,7 @@ int main(){
 	cout << ++x << endl; // prints 16
 	cout << --x << endl; // prints 15
 	return 0;
-}
+} */
 
 // Let's walk through each of line one by one.
 //			x++	-> value got incremented but prints old value
@@ -381,7 +381,27 @@ int main(){
 //						Ex:- x = 15, here if we give ++x. Then it will print out 16.
 //							In this case if we print out x again it will give the same result that is 16. Because it already got incremented.
 
+// We can identify above case scenarios by printing x again.
 
+#include <iostream>
+using namespace std;
+
+int main(){
+	int x = 15;
+	
+	cout << x++ << endl; // prints 15
+	cout << x << endl;	 // prints 16
+	
+	cout << x-- << endl; // prints 16
+	cout << x << endl;	 // prints 15
+	
+	cout << ++x << endl; // prints 16
+	cout << x << endl;	 // prints 16
+	
+	cout << --x << endl; // prints 15
+	cout << x << endl;	 // prints 15
+
+}
 
 
 
