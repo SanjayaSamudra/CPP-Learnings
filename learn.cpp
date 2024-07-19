@@ -321,7 +321,7 @@ int main() {
 
 //-------------------C++ sizeof() function-----------------
 
-#include <iostream>
+/* #include <iostream>
 using namespace std;
 
 int main(){
@@ -336,7 +336,7 @@ int main(){
 	
 	string s = "ABC";
 	cout << "The size of string " << s << " is, " << sizeof(s) << endl; 	 // prints -> The size of the string ABC is, 32
-}
+} */
 
 // Here, size of an integer given with bytes, that means 4 bytes which is 32 bits.( 1 byte = 8 bits ) 
 // Here, size of a double given with bytes, that means 8 bytes which is 64 bits.( 1 byte = 8 bits ) 
@@ -345,7 +345,31 @@ int main(){
 
 //--------------------C++ length() function-----------------
 
+/* #include <iostream>
+using namespace std;
 
+int main(){
+	
+	string alp = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	
+	cout << "Length of the string : " << alp.length() << endl; // Length of the string : 26
+	
+}
+
+//--------------------C++ size() function-----------------
+
+#include <iostream>
+using namespace std; */
+
+int main() {
+	
+	string alp = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	
+	cout << "Size of the string : " << alp.size() << endl;	   // Size of the string : 26
+	
+}
+
+// Both "length()" function and "size()" function give the length of the string.
 
 //=========================================================================================================================================
 
