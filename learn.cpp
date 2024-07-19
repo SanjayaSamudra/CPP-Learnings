@@ -383,7 +383,7 @@ int main(){
 
 // We can identify above case scenarios by printing x again.
 
-#include <iostream>
+/* #include <iostream>
 using namespace std;
 
 int main(){
@@ -401,8 +401,24 @@ int main(){
 	cout << --x << endl; // prints 15
 	cout << x << endl;	 // prints 15
 
+} */
+
+//----------------Comparison Operators------------
+
+#include <iostream>
+using namespace std;
+
+int main(){
+	int x = 15, y = 20;
+	
+	cout << "Equal to operator - " << x == y << endl;				// prints 0
+	cout << "Not equal to operator - "<< x != y << endl;			// prints 1
+	cout << "Less than or equal operator - " << x <= y << endl;		// prints 1
+	cout << "Grater than or equal operator - " <<  x >= y << endl;	// prints 0
+	
 }
 
+// Here we refer 0 - false and 1 - true. Because in comparison operators we getting only true or false case only. 
 
 
 
