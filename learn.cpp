@@ -476,4 +476,19 @@ int main(){
 // What logical ((x <= y) && (x >= y)) this do is, if one of them falses, program stops checking other conditions after that condition.
 //		These two methods usefull when working with large conditional statements.
 
+//==================================================================================================================================================================================================
 
+//-----------------------------------------if statement------------------------------------------------------------------
+
+// Syntax
+
+#include <iostream>
+using namespace std;
+
+int main(){
+	
+	if ( true ) { // within the brackets, condition is found. 
+		// what need to be done
+	}
+	
+}
