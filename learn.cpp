@@ -482,7 +482,7 @@ int main(){
 
 // Syntax
 
-#include <iostream>
+/* #include <iostream>
 using namespace std;
 
 int main(){
@@ -491,4 +491,29 @@ int main(){
 		// what need to be done
 	}
 	
+} */
+
+// Ex:-
+
+#include <iostream>
+using namespace std;
+
+int main(){
+	
+	int score = 75;
+	if(score >= 75){
+		cout << "The grade is, A" << endl;
+	}
+	
+	// Here we gonna proceed with the defined value for score
+	// or
+	
+	int mark;
+	cout << "Enter the mark : ";
+	cin >> mark;
+	if(mark>=75){
+		cout << "The grade is, A";
+	}
+	
+	// Here we gonna proceed with user input value for mark
 }
